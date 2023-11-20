@@ -5,7 +5,7 @@
 
 <img src="https://forthebadge.com/images/badges/made-with-go.svg" height=32/>
 <img src="https://forthebadge.com/images/badges/built-with-love.svg" height=32/>
-<img src="https://forthebadge.com/images/badges/license-mit.svg" height=32/>
+<img src="https://forthebadge.com/images/badges/open-source.svg" height=32/>
 
 The sourcecode behind my own website, [alek.codes](https://alek.codes).
 
