@@ -10,6 +10,7 @@ require (
 
 require (
 	github.com/fatih/color v1.16.0 // indirect
+	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/golang/snappy v0.0.1 // indirect
 	github.com/klauspost/compress v1.13.6 // indirect
 	github.com/labstack/gommon v0.4.1 // indirect
@@ -27,4 +28,5 @@ require (
 	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
 	golang.org/x/sys v0.14.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
+	golang.org/x/time v0.3.0 // indirect
 )
