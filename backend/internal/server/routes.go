@@ -5,15 +5,16 @@ import (
 
 	"github.com/barealek/echowares/echologger"
 	"github.com/labstack/echo/v4"
+	"github.com/labstack/echo/v4/middleware"
 )
 
 func (s *Server) RegisterRoutes() http.Handler {
 	e := echo.New()
 
+	e.Use(middleware.AddTrailingSlash())
 	e.Use(echologger.New())
 
-	// routes.RegisterHealth(e.Group("/health"))
-	// TODO: Fix cyclic import error
+	s.RegisterHealth(e.Group("/health"))
 
 	return e
 }
