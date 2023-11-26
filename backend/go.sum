@@ -1,5 +1,7 @@
 github.com/barealek/echowares v1.0.4 h1:50e6eV5vV03Y7qZ80UuiEGfOAj6gvry7tPpHiy4oeM4=
 github.com/barealek/echowares v1.0.4/go.mod h1:sKoHhVFhSOociamSQ4NwfdDUa5cgBquG530zam7gD+k=
+github.com/barealek/echowares v1.0.5 h1:0Gik+htzRQcKtS7/tB7lutS4pRGJK2IueENbN9pu1wU=
+github.com/barealek/echowares v1.0.5/go.mod h1:sKoHhVFhSOociamSQ4NwfdDUa5cgBquG530zam7gD+k=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/fatih/color v1.16.0 h1:zmkK9Ngbjj+K0yRhTVONQh1p/HknKYSlNT+vZCzyokM=
