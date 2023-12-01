@@ -1,6 +1,6 @@
 <script>
-    let activeClasses = "border-b-2 border-blue-500"
-    let unactiveClasses = "border-b-2 border-transparent hover:border-blue-500"
+    let activeClasses = "border-b-2 border-amber-500"
+    let unactiveClasses = "border-b-2 border-transparent hover:border-amber-500"
 
     let path = window.location.pathname
     let activePage = path
@@ -8,6 +8,7 @@
     let pages = {
         home: "/",
         blogs: "/blogs/",
+        portfolio: "/portfolio/",
         contact: "/contact/"
     }
 
