@@ -17,3 +17,4 @@ static_sites:
     build_command: npm run build
     environment_slug: node-js
     source_dir: frontend
+    catchall_document: 404/
