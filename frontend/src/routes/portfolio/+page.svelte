@@ -7,12 +7,12 @@
                 </h1>
         
                 <p class="mt-4 text-center text-gray-500 dark:text-gray-300">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
+                    TODO: Add portfolio description ;)
                 </p>
         
         
                 <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
-                    <div>
+                    <!-- <div>
                         <img class="object-cover w-full rounded-lg h-96 "
                             src="https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80"
                             alt="">
@@ -37,7 +37,7 @@
                         <h2 class="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">Ton’s of mobile mockup
                         </h2>
                         <p class="mt-2 text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">Mockups</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
