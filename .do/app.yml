@@ -4,6 +4,8 @@ region: fra1
 domains:
   - domain: alek.codes
     type: PRIMARY
+    wildcard: false
+    zone: alek.codes
 
 static_sites:
   - name: frontend
