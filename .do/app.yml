@@ -1,0 +1,14 @@
+name: alek.codes
+region: FRA1
+
+static_sites:
+  - name: alek.codes
+    github:
+      repo: barealek/alek.codes
+      branch: main
+      deploy_on_push: true
+    routes:
+      - path: /
+    build_command: npm run build
+    environment_slug: node-js
+    source_dir: frontend
