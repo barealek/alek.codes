@@ -4,7 +4,6 @@ region: fra1
 domains:
   - domain: alek.codes
     type: PRIMARY
-    
 
 static_sites:
   - name: frontend
@@ -17,4 +16,3 @@ static_sites:
     build_command: npm run build
     environment_slug: node-js
     source_dir: frontend
-    catchall_document: 404/
