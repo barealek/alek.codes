@@ -1,8 +1,13 @@
-name: alek.codes
-region: FRA1
+name: alekcodes
+region: fra1
+
+domains:
+  - domain: alek.codes
+    type: PRIMARY
+    
 
 static_sites:
-  - name: alek.codes
+  - name: frontend
     github:
       repo: barealek/alek.codes
       branch: main
