@@ -6,10 +6,10 @@
     let activePage = path
     
     let pages = {
-        home: "/",
+        hjem: "/",
         blogs: "/blogs/",
-        portfolio: "/portfolio/",
-        contact: "/contact/"
+        portfolie: "/portfolio/",
+        kontakt: "/contact/"
     }
 
 </script>
