@@ -8,8 +8,7 @@
     let pages = {
         hjem: "/",
         blogs: "/blogs/",
-        portfolie: "/portfolio/",
-        kontakt: "/contact/"
+        portfolie: "/portfolio/"
     }
 
 </script>
