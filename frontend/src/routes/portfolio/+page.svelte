@@ -7,7 +7,7 @@
                 </h1>
         
                 <p class="mt-4 text-center text-gray-500 dark:text-gray-300">
-                    TODO: Add portfolio description ;)
+                    TODO: Tilføj portfolie ;)
                 </p>
         
         
