@@ -1,7 +1,20 @@
+<script>
+    export let status = 'online';
+</script>
+
 <div class="relative flex justify-center items-center">
     <div class="relative w-60 h-60">
         <img class="object-cover w-full h-full rounded-full" src="/assets/me.jpg" alt="alek">
-        <span class="absolute bottom-6 right-6 w-5 h-5 rounded-full bg-emerald-500 ring-1 ring-white"></span>
+
+        <span class="absolute bottom-6 right-6 w-5 h-5 rounded-full bg-emerald-500 ring-1 ring-white">
+            <p class="absolute flex items-center justify-center w-40 p-3 text-gray-600 bg-white rounded-lg shadow-lg -left-[18px] -top-16 shadow-gray-200">
+                <span class="truncate ">Jeg er {status === 'online' ? 'online 😄' : 'offline 😢'}</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 absolute rotate-45 left-4 bottom-0.5 -mb-3 transform text-white dark:text-gray-800 fill-current" stroke="currentColor" viewBox="0 0 24 24" >
+                    <path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z"></path>
+                </svg>
+            </p>
+        </span>
+
     </div>
 </div>
 
