@@ -11,3 +11,10 @@
     <p class="text-amber-600/80">Selvlært Software Udvikler</p>
 </div>
 
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
+
+    h1 {
+        font-family: 'Hedvig Letters Sans', sans-serif;
+    }
+</style>
