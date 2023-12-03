@@ -1,9 +1,10 @@
 <script>
-    let activeClasses = "border-b-2 border-amber-500"
-    let unactiveClasses = "border-b-2 border-transparent hover:border-amber-500"
+    import { page } from '$app/stores';
 
-    let path = window.location.pathname
-    let activePage = path
+    
+
+    let path = $page.url.pathname
+    $: activePage = path
     
     let pages = {
         hjem: "/",
@@ -11,7 +12,11 @@
         portfolie: "/portfolio/"
     }
 
+    let activeClasses = "border-b-2 border-amber-500"
+    let unactiveClasses = "border-b-2 border-transparent hover:border-amber-500"
+
 </script>
+
 <nav class="absolute w-screen bg-white shadow-sm transition-all hover:shadow dark:bg-gray-800 flex mb-8">
     <div class="container flex items-center justify-center p-6 mx-auto text-gray-600">
 
