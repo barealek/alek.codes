@@ -8,7 +8,7 @@
 <!-- Name & title -->
 <div class="text-center">
     <h1 class="text-4xl font-bold mt-4">Aleksander Rist <span class="text-lg font-normal">(16 år)</span></h1>
-    <p class="text-amber-600/80">Selvlært Software Udvikler</p>
+    <p class="text-amber-700/95">Selvlært Software Udvikler</p>
 </div>
 
 <style>
