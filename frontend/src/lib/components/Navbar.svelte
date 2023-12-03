@@ -1,10 +1,7 @@
 <script>
     import { page } from '$app/stores';
 
-    
-
     let path = $page.url.pathname
-    $: activePage = path
     
     let pages = {
         hjem: "/",
@@ -21,7 +18,7 @@
     <div class="container flex items-center justify-center p-6 mx-auto text-gray-600">
 
         {#each Object.entries(pages) as [key, value]}
-            <a on:click={() => {activePage = value}} href={value} class="{activePage === value ? activeClasses : unactiveClasses} hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 mx-1.5 sm:mx-6">{key}</a>
+            <a on:click={() => {path = value}} href={value} class="{path === value ? activeClasses : unactiveClasses} hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 mx-1.5 sm:mx-6">{key}</a>
         {/each}
     </div>
 </nav>
