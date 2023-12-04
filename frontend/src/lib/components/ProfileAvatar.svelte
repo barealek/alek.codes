@@ -19,7 +19,7 @@
     <h1 class="text-4xl font-bold mt-4">Aleksander Rist <span class="text-lg font-normal">(16 år)</span></h1>
 
     <!-- svelte-ignore a11y-interactive-supports-focus -->
-    <span class="text-amber-700/95" on:mouseenter={() => {animating = true; setTimeout(()=>{animating=false;}, 2000)}}>
+    <span class="text-amber-700/95" on:mouseenter={() => {if (!animating) {animating = true; setTimeout(()=>{animating=false;}, 2000)}}}>
         {#each title.split("") as letter, index (index)}
             {#if letter === " "}
                 <span class="inline-block w-1"></span>
