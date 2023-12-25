@@ -14,7 +14,7 @@
 
 </script>
 
-<nav class="absolute w-screen bg-white shadow-sm transition-all hover:shadow dark:bg-gray-800 flex mb-8">
+<nav class="w-screen bg-white shadow-sm transition-all hover:shadow dark:bg-gray-800 flex mb-8">
     <div class="container flex items-center justify-center p-6 mx-auto text-gray-600">
 
         {#each Object.entries(pages) as [key, value]}
