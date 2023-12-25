@@ -6,7 +6,7 @@
     
 </script>
 
-<div class="h-screen w-screen flex justify-center items-center">
+<div class="h-screen w-screen flex justify-center items-center md:mt-0 mt-64">
     <div>
         <section class="bg-white dark:bg-gray-900 mt-12">
             <div class="container px-6 py-10 mx-auto">
