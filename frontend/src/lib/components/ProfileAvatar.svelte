@@ -2,10 +2,6 @@
     export let status = 'offline';
     let title = "Selvlært Software Udvikler";
     let animating = false;
-
-    setInterval(() => {
-        console.log(animating);
-    }, 1000);
 </script>
 
 <div class="relative flex justify-center items-center">
