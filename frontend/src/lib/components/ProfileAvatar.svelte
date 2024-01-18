@@ -2,10 +2,6 @@
     export let status = 'offline';
     let title = "Selvlært Software Udvikler";
     let animating = false;
-
-    setInterval(() => {
-        console.log(animating);
-    }, 1000);
 </script>
 
 <div class="relative flex justify-center items-center">
@@ -29,7 +25,7 @@
     <h1 class="text-4xl font-bold mt-4">Aleksander Rist <span class="text-lg font-normal">(16 år)</span></h1>
 
     <!-- svelte-ignore a11y-interactive-supports-focus -->
-    <span class="text-amber-700/95" on:mouseenter={() => {if (!animating) {animating = true; setTimeout(()=>{animating=false;}, 2000)}}}>
+    <button class="text-amber-700/95" on:mouseenter={() => {if (!animating) {animating = true; setTimeout(()=>{animating=false;}, 2000)}}}>
         {#each title.split("") as letter, index (index)}
             {#if letter === " "}
                 <span class="inline-block w-1"></span>
@@ -37,7 +33,7 @@
                 <span style="animation-delay: {50*index}ms;" class="inline-block animate-once {animating ? 'animate-jump' : ''}">{letter}</span>
             {/if}
         {/each}
-    </span>
+    </button>
 </div>
 
 <style>
