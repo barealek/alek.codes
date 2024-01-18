@@ -7,9 +7,7 @@ import (
 func main() {
 	server := server.New()
 
-	err := server.ListenAndServe()
-
-	if err != nil {
+	if err := server.ListenAndServe(); err != nil {
 		panic("failed to start server")
 	}
 }
