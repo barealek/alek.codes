@@ -5,7 +5,7 @@
     
     let pages = {
         hjem: "/",
-        blogs: "/blogs/",
+        // blogs: "/blogs/",
         portfolie: "/portfolio/"
     }
 
