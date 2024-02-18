@@ -22,7 +22,7 @@
 
 <!-- Name & title -->
 <div class="text-center">
-    <h1 class="text-4xl font-bold mt-4">Aleksander Rist <span class="text-lg font-normal">(16 år)</span></h1>
+    <h1 class="text-4xl font-bold mt-4">Aleksander Rist <span class="text-lg font-normal">(17 år)</span></h1>
 
     <!-- svelte-ignore a11y-interactive-supports-focus -->
     <button class="text-amber-700/95" on:mouseenter={() => {if (!animating) {animating = true; setTimeout(()=>{animating=false;}, 2000)}}}>
